@@ -104,9 +104,12 @@ public:
 
     // Hardware Composer
     HWComposer& getHwComposer() const;
+<<<<<<< HEAD
 
+=======
+    
     sp<DisplayDispatcher>  mDisplayDispatcher;
-
+>>>>>>> 0c65aad0b796f230b790192185147a1f62886d6d
     status_t compositionComplete() const;
 
     Rect getBounds() const {

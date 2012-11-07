@@ -33,9 +33,11 @@
 #ifdef QCOM_HARDWARE
 #include <gralloc_priv.h>
 #endif
+<<<<<<< HEAD
 
+=======
 #include <hardware/hwcomposer.h>
-
+>>>>>>> 0c65aad0b796f230b790192185147a1f62886d6d
 namespace android {
 
 SurfaceTextureClient::SurfaceTextureClient(
